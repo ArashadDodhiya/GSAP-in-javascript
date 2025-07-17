@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Linden+Hill&family=Patrick+Hand&family=Permanent+Marker&family=Pixelify+Sans:wght@600&family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Linden Hill', serif;
+}
+
+*::selection{
+    background-color: #fff;
+    color: #000;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+html,body{
+   width: 100%;
+   height: 100%;
+}
+
+#main{
+    height: 100%;
+    background-color: #000;
+}
+
+#nav{
+    height: 80px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav img{
+    height: 60px;
+}
+
+#nav2{
+    display: flex;
+    gap: 40px;
+}
+#nav3{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+#nav2 h3{
+    text-transform: uppercase;
+}
+/* #nav #nav2 h3:hover{
+    color: rgb(110, 179, 110);
+    transition: all ease .3s;
+} */
+
+#nav3 h4{
+    text-transform: uppercase;
+    /* transition: all ease .3s; */
+}
+/* #nav3 h4:hover{
+    color: rgb(128, 44, 44);
+} */
+
+#nav button{
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    /* transition: all ease .3s; */
+}
+/* #nav button:hover{
+    color: white;
+    background-color: rgb(78, 35, 35);
+    transition: all ease .3s;
+} */
+#main h1 span{
+    background-color: brown;
+    font-size: 30px;
+    border-radius: 50px;
+    padding: 20px;
+}
+#h1s h1{
+    font-size: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* line-height: px; */
+    position: absolute;
+    z-index: 99;
+    left: 25%;
+    
+    /* text-wrap: wrap; */
+}
+
+#h11{
+    /* background-color: #fff; */
+   margin-top: 50px;
+}
+#h12{
+    margin-top: 200px;
+    left: 75%;
+    /* background-color: green; */
+}
+#h13{
+    /* background-color: lightblue; */
+    margin-top: 350px;
+}
+
+#left-img{
+    height: 300px;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    z-index: 9;
+    border-radius: 30px;
+
+}
+#right-img{
+    height: 200px;
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+    border-radius: 30px;
+}
+
+#Scroll-down{
+    position: absolute;
+    bottom: 7%;
+    left: 43%;
+    /* transform: translate(-50%,0); */
+    font-size: 30px;
+}
+
